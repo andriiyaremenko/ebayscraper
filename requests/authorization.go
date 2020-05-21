@@ -3,15 +3,12 @@ package requests
 import (
 	"encoding/json"
 	"fmt"
-	"io"
 
 	"github.com/andriiyaremenko/tinylog"
 	"github.com/gocolly/colly"
 
 	"net/http"
-	"net/url"
 	"regexp"
-	"strings"
 )
 
 var (
@@ -112,12 +109,4 @@ func parseAndProceed(logger tinylog.TinyLogger, c *colly.Collector, r *colly.Res
 	if err != nil {
 		logger.Err(err)
 	}
-}
-
-func createFormReader(data map[string]string) io.Reader {
-	form := url.Values{}
-	for k, v := range data {
-		form.Add(k, v)
-	}
-	return strings.NewReader(form.Encode())
 }

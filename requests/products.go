@@ -43,9 +43,6 @@ func (pc *productsClient) CallEndpoint(c *colly.Collector, args ...interface{}) 
 	category := args[0].(string)
 	start := time.Now()
 	c.Async = true
-	defer func() {
-		c.Async = false
-	}()
 
 	c.OnResponse(func(r *colly.Response) {
 		pc.logger.Debugf("%s: %s%s -> %d", r.Request.Method, r.Request.URL.Hostname(), r.Request.URL.RequestURI(), r.StatusCode)
@@ -97,5 +94,7 @@ func (pc *productsClient) CallEndpoint(c *colly.Collector, args ...interface{}) 
 	if err != nil {
 		pc.logger.Fatal(err)
 	}
-	return c.Clone()
+	result := c.Clone()
+	result.Async = false
+	return result
 }
