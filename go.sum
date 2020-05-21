@@ -12,6 +12,12 @@ github.com/andriiyaremenko/tinylog v0.0.0-20200520134313-34834ca73cac h1:oLiswKk
 github.com/andriiyaremenko/tinylog v0.0.0-20200520134313-34834ca73cac/go.mod h1:QLQnvMaTkyBYeQ9Fafj6jQ4CN2OB3LAhCiRjPkBw0Go=
 github.com/andriiyaremenko/tinylog v0.0.0-20200521115316-836fad13a558 h1:ppWqugnA47lxjqN/w5F2K+jwrPYOP/49tYdz3P27IK4=
 github.com/andriiyaremenko/tinylog v0.0.0-20200521115316-836fad13a558/go.mod h1:QLQnvMaTkyBYeQ9Fafj6jQ4CN2OB3LAhCiRjPkBw0Go=
+github.com/andriiyaremenko/tinylog v0.0.0-20200521145631-7ba9d48f40a0 h1:9vHxiEQq4Qm2j7P8Z1V6vj+w7PTfhr322GLk3SKIgww=
+github.com/andriiyaremenko/tinylog v0.0.0-20200521145631-7ba9d48f40a0/go.mod h1:QLQnvMaTkyBYeQ9Fafj6jQ4CN2OB3LAhCiRjPkBw0Go=
+github.com/andriiyaremenko/tinylog v0.0.0-20200521155535-391a184850b2 h1:Gn2soakhIbFZ6putclm2gzaJimZVobNbAgOeK/nruW8=
+github.com/andriiyaremenko/tinylog v0.0.0-20200521155535-391a184850b2/go.mod h1:QLQnvMaTkyBYeQ9Fafj6jQ4CN2OB3LAhCiRjPkBw0Go=
+github.com/andriiyaremenko/tinylog v0.0.0-20200521191837-18f2879daf27 h1:+Q8/mNDFLKSEffeCMEJj5xnoW4QagXzuL59txD8TsC8=
+github.com/andriiyaremenko/tinylog v0.0.0-20200521191837-18f2879daf27/go.mod h1:QLQnvMaTkyBYeQ9Fafj6jQ4CN2OB3LAhCiRjPkBw0Go=
 github.com/andybalholm/cascadia v1.1.0 h1:BuuO6sSfQNFRu1LppgbD25Hr2vLYW25JvxHs5zzsLTo=
 github.com/andybalholm/cascadia v1.1.0/go.mod h1:GsXiBklL0woXo1j/WYWtSYYC4ouU9PqHO0sqidkEA4Y=
 github.com/andybalholm/cascadia v1.2.0 h1:vuRCkM5Ozh/BfmsaTm26kbjm0mIOM3yS5Ek/F5h18aE=

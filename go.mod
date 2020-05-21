@@ -4,7 +4,7 @@ go 1.14
 
 require (
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect
-	github.com/andriiyaremenko/tinylog v0.0.0-20200521115316-836fad13a558
+	github.com/andriiyaremenko/tinylog v0.0.0-20200521191837-18f2879daf27
 	github.com/andybalholm/cascadia v1.2.0 // indirect
 	github.com/antchfx/htmlquery v1.2.3 // indirect
 	github.com/antchfx/xmlquery v1.2.4 // indirect
